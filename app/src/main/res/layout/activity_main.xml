@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fencingapp.android.fencingpoints.MainActivity">
+
+    <LinearLayout
+        style="@style/layout_main">
+
+        <LinearLayout
+            style="@style/layout_main"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                style="@style/layout_main">
+
+                <EditText
+                    android:id="@+id/fencer_one"
+                    style="@style/inputText"
+                    android:hint="@string/fencer_hint"/>
+
+                <EditText
+                    android:id="@+id/club_one"
+                    style="@style/inputText"
+                    android:hint="@string/club_hint"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/layout_main">
+
+                <EditText
+                    android:id="@+id/fencer_two"
+                    style="@style/inputText"
+                    android:hint="@string/fencer_hint"/>
+
+                <EditText
+                    android:id="@+id/club_two"
+                    style="@style/inputText"
+                    android:hint="@string/club_hint"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/set_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_fencers"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

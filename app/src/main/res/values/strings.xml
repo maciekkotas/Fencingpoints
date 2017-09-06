@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">"Fencing points "</string>
+
+    <string name="club_hint">"Club"</string>
+    <string name="fencer_hint">"Fencer"</string>
+    <string name="set_fencers">Set Fencers</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="reset">Reset</string>
+    <string name="point">Point</string>
+    <string name="zero">0</string>
+    <string name="coln">:</string>
+
+</resources>
